@@ -1,0 +1,117 @@
+/* UploadFile.css */
+.upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 500px;
+  /* Increased height to give more space */
+  background-color: rgba(245, 176, 65, 0.8);
+  /* Soft orange with 80% opacity */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section,
+.right-section {
+  width: 48%;
+  /* Each section takes up 48% of the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.upload-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.upload-description {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+.upload-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #d35400;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Placeholder (Question Mark) */
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-mark {
+  width: 200px;
+  height: 200px;
+  opacity: 0.6;
+  /* Make it semi-transparent */
+}
+
+/* Card Style */
+.card {
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.book-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.book-genre {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
